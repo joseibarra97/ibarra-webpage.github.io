@@ -106,7 +106,7 @@ button {
 }
 
 #inicio {
-    background-image: url(/imagenes/inicio.png);
+    background-image: url(imagenes/inicio.png);
     min-height: 280px;
     background-repeat: no-repeat;
     background-size: cover;
