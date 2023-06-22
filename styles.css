@@ -12,6 +12,8 @@ body {
     font-weight: 200;
 }
 
+
+
 h2 {
     font-size: 36px;
     line-height: 36px;
@@ -56,19 +58,22 @@ i {
     color: white;
 }
 
+i:hover {
+    color: #ffc900;
+    font-size: 25px;
+}
+
 section {
-    padding: 10px 100px;
+    padding: 40px 100px;
 }
 
 @media only screen and (max-width: 850px) {
     section {
-        padding: 0px;
+        padding: 50px 10px;
     }
-}
-
-i:hover {
-    color: #ffc900;
-    font-size: 25px;
+    #skills {
+        padding-bottom: 0px;
+    }
 }
 
 /* a:any-link {
@@ -121,12 +126,12 @@ button {
     min-height: 280px;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 80px;
 }
 
 #skills {
     background-color: white;
     color: #222;
-    padding-bottom: 0px;
 }
 
 #experiencia {
