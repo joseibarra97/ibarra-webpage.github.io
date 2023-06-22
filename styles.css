@@ -23,7 +23,7 @@ h3 {
     font-weight: 300;
 }
 
-nav {
+.nav {
     position: fixed;
     width: 100%;
     background-color: #222;
@@ -32,19 +32,19 @@ nav {
     text-align: center;
 }
 
-nav ul {
+.nav .nav_ul {
     display: inline-block;
     list-style: none;
 }
 
-nav ul li {
+.nav .nav_ul li {
     float: left;
-    margin-right: 5px;
+    margin-right: 20px;
     padding-top: 12px;
 }
 
-section {
-    padding: 10px 100px;
+#home-logo img {
+    width: 35px;
 }
 
 p {
@@ -78,7 +78,7 @@ a {
 }
 
 a:hover {
-    color: black;
+    color: gray;
 }
 
 button {
@@ -111,21 +111,25 @@ button {
     min-height: 280px;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 80px;
+    padding: 80px;
 }
 
 #skills {
     background-color: white;
     color: #222;
+    padding: 80px;
+    padding-bottom: 0px;
 }
 
 #experiencia {
     background-color: white;
     color: #222;
+    padding: 80px;
 }
 
 #portfolio {
     border-top: 1px solid #ffc900;
+    padding: 80px;
 }
 
 #home-logo {
@@ -137,6 +141,7 @@ button {
 #sobremi {
     display: grid;
     grid-template-columns: 250px 1fr;
+    padding: 80px;
 }
 
 #sobremi h2{
@@ -258,7 +263,7 @@ button a{
     }
 
     .cardexp {
-        width: 100%;
+        width: 90%;
         margin-top: 15px;
     }
 }
@@ -279,6 +284,7 @@ button a{
 #contact {
     background-color: #ffc900;
     color: black;
+    padding: 20px 80px;
 }
 
 .itemform {
