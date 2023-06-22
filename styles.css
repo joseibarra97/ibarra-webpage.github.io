@@ -56,6 +56,16 @@ i {
     color: white;
 }
 
+section {
+    padding: 10px 100px;
+}
+
+@media only screen and (max-width: 850px) {
+    section {
+        padding: 0px;
+    }
+}
+
 i:hover {
     color: #ffc900;
     font-size: 25px;
@@ -111,25 +121,21 @@ button {
     min-height: 280px;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 80px;
 }
 
 #skills {
     background-color: white;
     color: #222;
-    padding: 80px;
     padding-bottom: 0px;
 }
 
 #experiencia {
     background-color: white;
     color: #222;
-    padding: 80px;
 }
 
 #portfolio {
     border-top: 1px solid #ffc900;
-    padding: 80px;
 }
 
 #home-logo {
@@ -141,7 +147,6 @@ button {
 #sobremi {
     display: grid;
     grid-template-columns: 250px 1fr;
-    padding: 80px;
 }
 
 #sobremi h2{
@@ -284,7 +289,6 @@ button a{
 #contact {
     background-color: #ffc900;
     color: black;
-    padding: 20px 80px;
 }
 
 .itemform {
