@@ -161,6 +161,17 @@ button a{
     color: black;
 }
 
+@media only screen and (max-width: 850px) {
+    #sobremi {
+        display: block;
+        width: 100%;
+    }
+
+    #bodyaboutme {
+        width: 65%;
+    }
+}
+
 /* Card portfolio */
 
 .filaportfolio{
@@ -172,6 +183,7 @@ button a{
     margin-bottom: 15px;
     margin-top: 15px;
 }
+
 .card{
     width: 250px;
     background-color: #191919;
@@ -218,18 +230,37 @@ button a{
 #experiencia h2 {
     margin-bottom: 15px;
 }
-.gridexp {
-    display: grid;
+.flex-exp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    /* display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 10px;
-
+    grid-gap: 10px; */
 }
 
 .cardexp {
+    width: 500px;
     background-color: #222;
     border-radius: 15px;
     color: white;
     padding: 10px 15px;
+}
+
+@media only screen and (max-width: 850px) {
+    .flex-exp {
+        display: block;
+        width: 100%;
+    }
+
+    .cardexp {
+        width: 100%;
+        margin-top: 15px;
+    }
 }
 
 .cardexp h2 {
